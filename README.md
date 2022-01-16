@@ -6,4 +6,9 @@ Emoji sheets and individual images are imported from [iamcal/emoji-data](https:/
 
 Reguilded theme manifest and other packs will be added later
 
+Known bugs:
+- Quick reaction buttons are incorrectly positioned
+- Emojis in the "Guilded" category show the incorrect image
+- The thumbsup emoji is missing
+
 ![guilded](https://user-images.githubusercontent.com/42148912/149676703-784edd7d-c76c-4274-98a4-33883bb4bfee.png)

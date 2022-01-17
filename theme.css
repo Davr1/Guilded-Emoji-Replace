@@ -1,0 +1,15 @@
+
+@import url("https://raw.githack.com/Davr1/Guilded-Emoji-Replace/master/emojis/Apple.css");
+
+
+.ReactionIcon-image:not(.ReactionPickerIcon-icon)[src^="https://img.guildedcdn.com/asset/Emojis/"] {
+    background: center / contain no-repeat var(--img) !important;
+    object-position: -9999px;
+}
+.ReactionPickerIcon-icon[src^="https://img.guildedcdn.com/asset/Emojis/"] {
+    background-image: var(--sheet) !important;
+    background-repeat: no-repeat;
+    background-size: calc(((var(--sheet_emoji_size) + 2) / var(--sheet_emoji_size)) * var(--sheet_grid) * 100%);
+    background-position: calc((((var(--sheet_grid) + 1) * 100%) / (var(--sheet_grid) * var(--sheet_grid))) * var(--x)) calc((((var(--sheet_grid) + 1) * 100%) / (var(--sheet_grid) * var(--sheet_grid))) * var(--y)); 
+    object-position: -9999px;
+}

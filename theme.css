@@ -1,4 +1,4 @@
-@import url("https://raw.githack.com/Davr1/Guilded-Emoji-Replace/master/additions/exclusion_list.css");
+
 @import url("https://raw.githack.com/Davr1/Guilded-Emoji-Replace/master/emojis/Apple.css");
 
 
@@ -12,4 +12,8 @@
     background-size: calc(((var(--sheet_emoji_size) + 2) / var(--sheet_emoji_size)) * var(--sheet_grid) * 100%);
     background-position: calc((((var(--sheet_grid) + 1) * 100%) / (var(--sheet_grid) * var(--sheet_grid))) * var(--x)) calc((((var(--sheet_grid) + 1) * 100%) / (var(--sheet_grid) * var(--sheet_grid))) * var(--y)); 
     object-position: -9999px;
+}
+.ReactionIcon-image[src^="https://img.guildedcdn.com/asset/Emojis/Custom"] {
+    background: unset !important;
+    object-position: unset !important;
 }

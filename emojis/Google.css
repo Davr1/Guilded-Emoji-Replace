@@ -1,4 +1,4 @@
-:root { --sheet_emoji_size: 32; --sheet_grid: 60; --sheet: url('https://raw.githubusercontent.com/iamcal/emoji-data/master/sheets-clean/sheet_google_32_clean.png'); }
+:root { --sheet_emoji_size: 32; --sheet_emoji_padding: 1; --sheet_grid: 60; --sheet: url('https://raw.githubusercontent.com/iamcal/emoji-data/master/sheets-clean/sheet_google_32_clean.png'); --sheet_high_resolution: url('https://raw.githubusercontent.com/iamcal/emoji-data/master/sheets-clean/sheet_google_64_clean.png'); }
 .ReactionIcon-image[src="https://img.guildedcdn.com/asset/Emojis/grinning.webp"] { --img: url('https://raw.githubusercontent.com/iamcal/emoji-data/master/img-google-64/1f600.png'); --x: 32; --y: 52; }
 .ReactionIcon-image[src="https://img.guildedcdn.com/asset/Emojis/smiley.webp"] { --img: url('https://raw.githubusercontent.com/iamcal/emoji-data/master/img-google-64/1f603.png'); --x: 32; --y: 55; }
 .ReactionIcon-image[src="https://img.guildedcdn.com/asset/Emojis/smile.webp"] { --img: url('https://raw.githubusercontent.com/iamcal/emoji-data/master/img-google-64/1f604.png'); --x: 32; --y: 56; }

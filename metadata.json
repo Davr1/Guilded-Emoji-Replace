@@ -1,0 +1,9 @@
+{
+  "id": "emoji-replace",
+  "name": "Emoji Replace",
+  "description": "Replaces the default Guilded emojis with a custom pack",
+  "author": "VmMq9EQm",
+  "contributors": [],
+  "version": "v0.0.1",
+  "files": "theme.css"
+}

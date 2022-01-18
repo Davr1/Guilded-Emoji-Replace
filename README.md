@@ -1,12 +1,12 @@
 # Guilded Emoji Replace
 
-Theme for Guilded.gg that replaces the default emoji pack with a different one
+Theme for Guilded.gg that replaces the default emoji pack with a custom one
 
-Requires [ReGuilded](https://reguilded.dev/) or a [browser extension](https://github.com/openstyles/stylus/) for injecting css
+Requires [ReGuilded](https://reguilded.dev/) or a [browser extension](https://github.com/openstyles/stylus/) for css injection
 
 Emoji sheets and individual images are imported from [iamcal/emoji-data](https://github.com/iamcal/emoji-data/)
 
-Emoji packs can be switched out by editing the `theme.css` file
+Emoji packs can be switched out in the `theme.css` file
 
 # Available emoji packs
 - [Apple](#apple)

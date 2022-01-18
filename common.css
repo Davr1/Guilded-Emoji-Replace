@@ -1,13 +1,32 @@
+:root::after {
+    content: '';
+    width: 0;
+    height: 0;
+    /* Makes sure that the emoji sheet always stays loaded even if the emoji picker is closed */
+    background-image: var(--sheet);
+}
 .ReactionIcon-image:not(.ReactionPickerIcon-icon)[src^="https://img.guildedcdn.com/asset/Emojis/"] {
     background: center / contain no-repeat var(--img);
-    object-position: -9999px;
+    /* If --x is equal to -1, the object (image) will not move from its original position. Otherwise it gets positioned outside of the element */
+    object-position: calc(var(--x) * -9999px - 9999px);
 }
 .ReactionPickerIcon-icon[src^="https://img.guildedcdn.com/asset/Emojis/"] {
-    background-image: var(--sheet);
+    background-image: var(--sheet, var(--img));
     background-repeat: no-repeat;
+    /* Calculates the size required for one emoji in the sheet to cover the entire element (100%)
+       Example: ((32 + 1*2) / 32) * 60 = the background must be 63.75 times larger than the element */
     background-size: calc(((var(--sheet_emoji_size) + var(--sheet_emoji_padding)*2) / var(--sheet_emoji_size)) * var(--sheet_grid) * 100%);
-    background-position: calc((((var(--sheet_grid) + var(--sheet_emoji_padding)) * 100%) / (var(--sheet_grid) * var(--sheet_grid))) * var(--x)) calc((((var(--sheet_grid) + var(--sheet_emoji_padding)) * 100%) / (var(--sheet_grid) * var(--sheet_grid))) * var(--y)); 
-    object-position: -9999px;
+    /* Calculates the position of the background for given x and y coordinates
+       Example: (((60 + 1) * 100%) / (60 * 60)) * x
+       The fractions can be separated like so: (100%/60) * (61/60) * x -first one divides the background into 60 equal parts,
+       and the second one accounts for the difference between the expected 100% (which should move the background by its own length),
+       and the real 100% (which moves the background just enough so that the bottom border of the element and the background are touching) */
+    background-position: calc((((var(--sheet_grid) + 1) * 100%) / (var(--sheet_grid) * var(--sheet_grid))) * var(--x)) calc((((var(--sheet_grid) + 1) * 100%) / (var(--sheet_grid) * var(--sheet_grid))) * var(--y)); 
+    object-position: calc(var(--x) * -9999px - 9999px);
+}
+.ReactionIcon-image[src^="https://img.guildedcdn.com/asset/Emojis/"] {
+    --x: -1;
+    --y: -1;
 }
 .ReactionIcon-image[src^="https://img.guildedcdn.com/asset/Emojis/Custom"] {
     background: unset !important;

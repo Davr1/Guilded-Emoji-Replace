@@ -24,7 +24,7 @@
     background-position: calc((((var(--sheet_grid) + 1) * 100%) / (var(--sheet_grid) * var(--sheet_grid))) * var(--x)) calc((((var(--sheet_grid) + 1) * 100%) / (var(--sheet_grid) * var(--sheet_grid))) * var(--y)); 
     object-position: calc(var(--x) * -9999px - 9999px);
 }
-.ReactionIcon-image[src^="https://img.guildedcdn.com/asset/Emojis/"] {
+.ReactionIcon-image {
     --x: -1;
     --y: -1;
 }

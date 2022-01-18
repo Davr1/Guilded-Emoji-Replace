@@ -1,7 +1,8 @@
-/* Switch out the emoji pack here ------------------------------------------------,     */
-/* Currently available packs and pack options can be found on the github page     |     */
-/* https://github.com/davr1/guilded-emoji-replace                                 v     */
+/* Switch out the emoji pack here ------------------------------------------------,      */
+/* Currently available packs and pack options can be found on the github page     |      */
+/* https://github.com/davr1/guilded-emoji-replace                                 v      */
 @import url("https://raw.githack.com/Davr1/Guilded-Emoji-Replace/master/emojis/Apple.css");
+/*                                                                       (case sensitive)*/
 
 @import url("https://raw.githack.com/Davr1/Guilded-Emoji-Replace/master/common.css");
 

@@ -2,8 +2,9 @@
 /* Currently available packs and pack options can be found on the github page     |      */
 /* https://github.com/davr1/guilded-emoji-replace                                 v      */
 @import url("https://raw.githack.com/Davr1/Guilded-Emoji-Replace/master/emojis/Apple.css");
-/*                                                                       (case sensitive)*/
+/*                                                                       (Case Sensitive)*/
 
+/* Do not remove - this file is required for the theme to work */
 @import url("https://raw.githack.com/Davr1/Guilded-Emoji-Replace/master/common.css");
 
-:root { /* (Optional) add pack options here */ }
+/* (Optional) add pack options here */

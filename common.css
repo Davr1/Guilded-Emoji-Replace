@@ -2,6 +2,7 @@
     content: '';
     width: 0;
     height: 0;
+    position: absolute;
     /* Makes sure that the emoji sheet always stays loaded even if the emoji picker is closed */
     background-image: var(--sheet);
 }

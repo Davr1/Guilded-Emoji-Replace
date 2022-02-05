@@ -12,6 +12,7 @@ Emoji packs can be switched out in the `theme.css` file - by default each pack u
 - [Apple](#apple)
 - [Google](#google)
 - [Facebook](#facebook)
+- [Mutant_Remix](#mutant_remix)
 ## Apple
 ![guilded-apple-emojis](https://user-images.githubusercontent.com/42148912/149998541-2ab0160b-4cff-4052-a68c-cf4a820a0376.png)\
 Emoji support: 3234/3237

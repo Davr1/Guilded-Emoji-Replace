@@ -12,7 +12,7 @@
     background-repeat: no-repeat;
     /* Calculates the size required for one emoji in the sheet to cover the entire element (100%)
        Example: ((32 + 1*2) / 32) * 60 = the background must be 63.75 times larger than the element */
-    background-size: calc(((var(--sheet_emoji_size) + var(--sheet_emoji_padding)*2) / var(--sheet_emoji_size)) * var(--sheet_grid) * 100%);
+    background-size: calc(((var(--sheet_emoji_size) + var(--sheet_emoji_padding, 0)*2) / var(--sheet_emoji_size)) * var(--sheet_grid) * 100%);
     /* Calculates the position of the background for given x and y coordinates
        Example: (((60 + 1) * 100%) / (60 * 60)) * x
        The fractions can be separated like so: (100%/60) * (61/60) * x -first one divides the background into 60 equal parts,

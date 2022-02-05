@@ -11,7 +11,7 @@ Emoji packs can be switched out in the `theme.css` file - by default each pack u
 - [Google](#google)
 - [Facebook](#facebook)
 - [Mutant_Remix](#mutant_remix)
-## Apple
+## [Apple](https://raw.githubusercontent.com/Davr1/Guilded-Emoji-Replace/main/emojis/Apple.css)
 ![guilded-apple-emojis](https://user-images.githubusercontent.com/42148912/149998541-2ab0160b-4cff-4052-a68c-cf4a820a0376.png)\
 Emoji support: 3234/3237
 ### Options
@@ -19,7 +19,7 @@ High resolution emoji sheet (64x64) ~ 18 MB:
 ```css
 :root { --sheet_emoji_size: 64 !important; --sheet: var(--sheet_high_resolution) !important; }
 ```
-## Google
+## [Google](https://raw.githubusercontent.com/Davr1/Guilded-Emoji-Replace/main/emojis/Google.css)
 [https://github.com/googlefonts/noto-emoji/](https://github.com/googlefonts/noto-emoji/) (Apache License 2.0)\
 ![guilded-google-emojis](https://user-images.githubusercontent.com/42148912/149998716-a509cb9d-8502-4fcd-b875-c121c44aa22e.png)\
 Emoji support: 3237/3237
@@ -28,7 +28,7 @@ High resolution emoji sheet (64x64) ~ 12.3 MB:
 ```css
 :root { --sheet_emoji_size: 64 !important; --sheet: var(--sheet_high_resolution) !important; }
 ```
-## Facebook
+## [Facebook](https://raw.githubusercontent.com/Davr1/Guilded-Emoji-Replace/main/emojis/Facebook.css)
 ![guilded-facebook-emojis](https://user-images.githubusercontent.com/42148912/149998740-462753bd-a256-4304-aa1d-dba41b840232.png)\
 Emoji support: 3144/3237
 ### Options
@@ -36,7 +36,7 @@ High resolution emoji sheet (64x64) ~ 17.7 MB:
 ```css
 :root { --sheet_emoji_size: 64 !important; --sheet: var(--sheet_high_resolution) !important; }
 ```
-## Mutant_Remix
+## [Mutant_Remix](https://raw.githubusercontent.com/Davr1/Guilded-Emoji-Replace/main/emojis/Mutant_Remix.css)
 [https://mutant.revolt.chat/](https://mutant.revolt.chat/) (CC BY-NC-SA 4.0)\
 ![guilded-mutant_remix-emojis](https://user-images.githubusercontent.com/42148912/152642026-1ff4b337-ad49-4883-8239-000f2bc13ead.png)\
 Emoji support: 1019/3237

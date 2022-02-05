@@ -4,9 +4,7 @@ Theme for Guilded.gg that replaces the default emoji pack with a custom one
 
 Requires [ReGuilded](https://reguilded.dev/) or a [browser extension](https://github.com/openstyles/stylus/) for css injection
 
-Emoji sheets and individual images are imported from [iamcal/emoji-data](https://github.com/iamcal/emoji-data/)
-
-Emoji packs can be switched out in the `theme.css` file - by default each pack uses 64x64 images for standalone emojis (used in chat, user statuses etc) and 32x32 emojis in the emoji picker (stored in one large "sheet", as a grid of emojis)
+Emoji packs can be switched out in the `theme.css` file - by default each pack uses 64x64 images for standalone emojis (used in chat, user statuses etc) and 32x32 emojis in the emoji picker (if available, stored in one large "sheet" as a grid of emojis)
 
 # Available emoji packs
 - [Apple](#apple)
@@ -22,6 +20,7 @@ High resolution emoji sheet (64x64) ~ 18 MB:
 :root { --sheet_emoji_size: 64 !important; --sheet: var(--sheet_high_resolution) !important; }
 ```
 ## Google
+[https://github.com/googlefonts/noto-emoji/](https://github.com/googlefonts/noto-emoji/) (Apache License 2.0)\
 ![guilded-google-emojis](https://user-images.githubusercontent.com/42148912/149998716-a509cb9d-8502-4fcd-b875-c121c44aa22e.png)\
 Emoji support: 3237/3237
 ### Options
@@ -37,5 +36,10 @@ High resolution emoji sheet (64x64) ~ 17.7 MB:
 ```css
 :root { --sheet_emoji_size: 64 !important; --sheet: var(--sheet_high_resolution) !important; }
 ```
+## Mutant_Remix
+[https://mutant.revolt.chat/](https://mutant.revolt.chat/) (CC BY-NC-SA 4.0)\
+![guilded-mutant_remix-emojis](https://user-images.githubusercontent.com/42148912/152642026-1ff4b337-ad49-4883-8239-000f2bc13ead.png)\
+Emoji support: 1019/3237
+
 ---
 ### More packs will be added in the future

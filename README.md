@@ -4,7 +4,7 @@ Theme for Guilded.gg that replaces the default emoji pack with a custom one
 
 Requires [ReGuilded](https://reguilded.dev/) or a [browser extension](https://github.com/openstyles/stylus/) for css injection
 
-Emoji packs can be switched out in the `theme.css` file - by default each pack uses 64x64 images for standalone emojis (used in chat, user statuses etc) and 32x32 emojis in the emoji picker (if available, stored in one large "sheet" as a grid of emojis)
+Emoji packs can be switched out in the `theme.css` file - by default each pack uses 64x64 images or svgs for standalone emojis (used in chat, user statuses etc) and 32x32 emojis in the emoji picker (if available, stored in one large "sheet" as a grid of emojis)
 
 # Available emoji packs
 - [Apple](#apple)

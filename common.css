@@ -14,11 +14,9 @@
        Example: ((32 + 1*2) / 32) * 60 = the background must be 63.75 times larger than the element */
     background-size: calc(((var(--sheet_emoji_size) + var(--sheet_emoji_padding, 0)*2) / var(--sheet_emoji_size)) * var(--sheet_grid) * 100%);
     /* Calculates the position of the background for given x and y coordinates
-       Example: (((60 + 1) * 100%) / (60 * 60)) * x
-       The fractions can be separated like so: (100%/60) * (61/60) * x -first one divides the background into 60 equal parts,
-       and the second one accounts for the difference between the expected 100% (which should move the background by its own length),
-       and the real 100% (which moves the background just enough so that the bottom border of the element and the background are touching) */
-    background-position: calc((((var(--sheet_grid) + 1) * 100%) / (var(--sheet_grid) * var(--sheet_grid))) * var(--x)) calc((((var(--sheet_grid) + 1) * 100%) / (var(--sheet_grid) * var(--sheet_grid))) * var(--y)); 
+       Example: (100% / 60-1) * x = the background must be moved x times the width of the element (or 1/59 the width of the background)
+       - the sheet grid number is decreased by one because 0% and 100% are relative to the image borders and do not actually represent the entire size */
+       background-position: calc((100% / (var(--sheet_grid) - 1)) * var(--x)) calc((100% / (var(--sheet_grid) - 1)) * var(--y)); 
     object-position: calc(var(--x) * -9999px - 9999px);
 }
 .ReactionIcon-image {

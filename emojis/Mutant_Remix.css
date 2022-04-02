@@ -1,4 +1,4 @@
-:root { --sheet_emoji_size: 1; --sheet_grid: 1; }
+:root { --sheet_emoji_size: 1; --sheet_emoji_padding: 0; --sheet_grid: 1; }
 .ReactionIcon-image[src="https://img.guildedcdn.com/asset/Emojis/grinning.webp"] { --img: url('https://static.revolt.chat/mutant/short/expressions/smileys/happy_fun/big_smile.svg'); --x: 0; --y: 0; }
 .ReactionIcon-image[src="https://img.guildedcdn.com/asset/Emojis/smiley.webp"] { --img: url('https://static.revolt.chat/mutant/short/expressions/smileys/happy_fun/happy.svg'); --x: 0; --y: 0; }
 .ReactionIcon-image[src="https://img.guildedcdn.com/asset/Emojis/smile.webp"] { --img: url('https://static.revolt.chat/mutant/short/expressions/smileys/happy_fun/grin.svg'); --x: 0; --y: 0; }

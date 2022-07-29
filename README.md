@@ -28,7 +28,7 @@ Emoji support: 3329/3329
 ### Options
 High resolution emoji sheet (64x64) ~ 12.3 MB:
 ```css
-:root { --sheet_emoji_size: 64 !important; --sheet: var(--sheet_high_resolution) !important; }
+:root { --sheet_emoji_size: 64 !important; --sheet_emoji_padding: 5 !important; --sheet: var(--sheet_high_resolution) !important; }
 ```
 ## [Facebook](https://raw.githubusercontent.com/Davr1/Guilded-Emoji-Replace/main/emojis/Facebook.css)
 ![guilded-facebook-emojis](https://user-images.githubusercontent.com/42148912/149998740-462753bd-a256-4304-aa1d-dba41b840232.png)\

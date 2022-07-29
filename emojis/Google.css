@@ -1,4 +1,4 @@
-:root { --sheet_emoji_size: 32; --sheet_emoji_padding: 1; --sheet_grid: 61; --sheet: url('https://cdn.jsdelivr.net/npm/emoji-datasource-google/img/google/sheets-clean/32.png'); --sheet_high_resolution: url('https://cdn.jsdelivr.net/npm/emoji-datasource-google/img/google/sheets-clean/64.png'); }
+:root { --sheet_emoji_size: 32; --sheet_emoji_padding: 3; --sheet_grid: 61; --sheet: url('https://cdn.jsdelivr.net/npm/emoji-datasource-google/img/google/sheets-clean/32.png'); --sheet_high_resolution: url('https://cdn.jsdelivr.net/npm/emoji-datasource-google/img/google/sheets-clean/64.png'); }
 .ReactionIcon-image[src="https://img.guildedcdn.com/asset/Emojis/grinning.webp"] { --img: url('https://cdn.jsdelivr.net/npm/emoji-datasource-google/img/google/64/1f600.png'); --x: 32; --y: 20; }
 .ReactionIcon-image[src="https://img.guildedcdn.com/asset/Emojis/smiley.webp"] { --img: url('https://cdn.jsdelivr.net/npm/emoji-datasource-google/img/google/64/1f603.png'); --x: 32; --y: 23; }
 .ReactionIcon-image[src="https://img.guildedcdn.com/asset/Emojis/smile.webp"] { --img: url('https://cdn.jsdelivr.net/npm/emoji-datasource-google/img/google/64/1f604.png'); --x: 32; --y: 24; }

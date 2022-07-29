@@ -6,11 +6,11 @@
     object-position: calc(var(--x) * -9999px - 9999px);
 }
 .ReactionPickerIcon-icon[src^="https://img.guildedcdn.com/asset/Emojis/"] {
+    --bg_size: ((var(--sheet_emoji_size) + var(--sheet_emoji_padding, 0) * 2) * var(--sheet_grid));
+    --sheet_emoji_padding_percent: (100% * var(--sheet_emoji_padding, 0) / var(--bg_size));
     background-image: var(--sheet, var(--img));
     background-repeat: no-repeat;
-    background-size: calc(var(--bg_size) / var(--sheet_emoji_size) * 100%);
-    --bg_size: calc((var(--sheet_emoji_size) + var(--sheet_emoji_padding, 0) * 2) * var(--sheet_grid));
-    --sheet_emoji_padding_percent: 100% * var(--sheet_emoji_padding) / var(--bg_size);
+    background-size: calc(100% * var(--bg_size) / var(--sheet_emoji_size));
     background-position-x: calc(var(--sheet_emoji_padding_percent) + var(--x) * (100% - 2 * var(--sheet_emoji_padding_percent)) / (var(--sheet_grid) - 1));
     background-position-y: calc(var(--sheet_emoji_padding_percent) + var(--y) * (100% - 2 * var(--sheet_emoji_padding_percent)) / (var(--sheet_grid) - 1));
     object-position: calc(var(--x) * -9999px - 9999px);

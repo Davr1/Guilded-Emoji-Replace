@@ -1,22 +1,18 @@
 #font-dummy-1 {
-    /* Makes sure that the emoji sheet always stays loaded even if the emoji picker is closed */
     background-image: var(--sheet);
 }
 .ReactionIcon-image:not(.ReactionPickerIcon-icon)[src^="https://img.guildedcdn.com/asset/Emojis/"] {
     background: center / contain no-repeat var(--img);
-    /* If --x is equal to -1, the object (image) will not move from its original position. Otherwise it gets positioned outside of the element */
     object-position: calc(var(--x) * -9999px - 9999px);
 }
 .ReactionPickerIcon-icon[src^="https://img.guildedcdn.com/asset/Emojis/"] {
     background-image: var(--sheet, var(--img));
     background-repeat: no-repeat;
-    /* Calculates the size required for one emoji in the sheet to cover the entire element (100%)
-       Example: ((32 + 1*2) / 32) * 60 = the background must be 63.75 times larger than the element */
-    background-size: calc(((var(--sheet_emoji_size) + var(--sheet_emoji_padding, 0)*2) / var(--sheet_emoji_size)) * var(--sheet_grid) * 100%);
-    /* Calculates the position of the background for given x and y coordinates
-       Example: (100% / 60-1) * x = the background must be moved x times the width of the element (or 1/59 the width of the background)
-       - the sheet grid number is decreased by one because 0% and 100% are relative to the image borders and do not actually represent the entire size */
-       background-position: calc((100% / (var(--sheet_grid) - 1)) * var(--x)) calc((100% / (var(--sheet_grid) - 1)) * var(--y)); 
+    background-size: calc(var(--bg_size) / var(--sheet_emoji_size) * 100%);
+    --bg_size: calc((var(--sheet_emoji_size) + var(--sheet_emoji_padding, 0) * 2) * var(--sheet_grid));
+    --sheet_emoji_padding_percent: 100% * var(--sheet_emoji_padding) / var(--bg_size);
+    background-position-x: calc(var(--sheet_emoji_padding_percent) + var(--x) * (100% - 2 * var(--sheet_emoji_padding_percent)) / (var(--sheet_grid) - 1));
+    background-position-y: calc(var(--sheet_emoji_padding_percent) + var(--y) * (100% - 2 * var(--sheet_emoji_padding_percent)) / (var(--sheet_grid) - 1));
     object-position: calc(var(--x) * -9999px - 9999px);
 }
 .ReactionIcon-image {

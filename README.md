@@ -32,8 +32,9 @@ High resolution emoji sheet (64x64) ~ 12.3 MB:
 :root { --sheet_emoji_size: 64 !important; --sheet_emoji_padding: 5 !important; --sheet: var(--sheet_high_resolution) !important; }
 ```
 ## [Microsoft_Fluent](https://raw.githubusercontent.com/Davr1/Guilded-Emoji-Replace/main/emojis/Microsoft_Fluent.css)
+[https://github.com/microsoft/fluentui-emoji/](https://github.com/microsoft/fluentui-emoji/) (MIT License)\
 ![guilded_microsoft_fluent_emojis](https://user-images.githubusercontent.com/42148912/182166243-ac0fecfc-d49a-49a8-8842-588c4d50f19c.png)\
-Emoji support: 2922/3329
+Emoji support: 3005/3329
 ### Otions
 High resolution sheet (each emoji is an individual image):
 ```css

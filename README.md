@@ -33,7 +33,7 @@ High resolution emoji sheet (64x64) ~ 12.3 MB:
 ```
 ## [Microsoft_Fluent](https://raw.githubusercontent.com/Davr1/Guilded-Emoji-Replace/main/emojis/Microsoft_Fluent.css)
 [https://github.com/microsoft/fluentui-emoji/](https://github.com/microsoft/fluentui-emoji/) (MIT License)\
-![guilded_microsoft_fluent_emojis](https://user-images.githubusercontent.com/42148912/182166243-ac0fecfc-d49a-49a8-8842-588c4d50f19c.png)\
+![guilded_microsoft_fluent_emojis](https://user-images.githubusercontent.com/42148912/184856870-b5c9128d-2839-43d5-ab96-5cff11760d07.png)
 Emoji support: 3005/3329
 ### Otions
 High resolution sheet (each emoji is an individual image):

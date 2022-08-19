@@ -23,3 +23,9 @@
     background: unset !important;
     object-position: unset !important;
 }
+:is(.SkinTonePicker-container, .SelectMenu-container) .icon[class*=emoji-the-horns] {
+    background: center/contain no-repeat var(--img);
+}
+:is(.SkinTonePicker-container, .SelectMenu-container) .icon[class*=emoji-the-horns]>use {
+    display: none;
+}

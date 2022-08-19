@@ -197,11 +197,17 @@
 .ReactionIcon-image[src="https://img.guildedcdn.com/asset/Emojis/crossed_fingers--skin-tone-4.webp"] { --img: url('https://static.revolt.chat/mutant/short/expressions/hands/hmn/crossed_fingers_hmn_h3.svg'); --x: 0; --y: 0; }
 .ReactionIcon-image[src="https://img.guildedcdn.com/asset/Emojis/crossed_fingers--skin-tone-5.webp"] { --img: url('https://static.revolt.chat/mutant/short/expressions/hands/hmn/crossed_fingers_hmn_h2.svg'); --x: 0; --y: 0; }
 .ReactionIcon-image[src="https://img.guildedcdn.com/asset/Emojis/the_horns.webp"] { --img: url('https://static.revolt.chat/mutant/short/expressions/hands/hmn/metal_hmn_y2.svg'); --x: 0; --y: 0; }
+.emoji-the-horns { --img: url('https://static.revolt.chat/mutant/short/expressions/hands/hmn/metal_hmn_y2.svg'); }
 .ReactionIcon-image[src="https://img.guildedcdn.com/asset/Emojis/the_horns--skin-tone-6.webp"] { --img: url('https://static.revolt.chat/mutant/short/expressions/hands/hmn/metal_hmn_h1.svg'); --x: 0; --y: 0; }
+.emoji-the-horns--skin-tone-6 { --img: url('https://static.revolt.chat/mutant/short/expressions/hands/hmn/metal_hmn_h1.svg'); }
 .ReactionIcon-image[src="https://img.guildedcdn.com/asset/Emojis/the_horns--skin-tone-1.webp"] { --img: url('https://static.revolt.chat/mutant/short/expressions/hands/hmn/metal_hmn_h5.svg'); --x: 0; --y: 0; }
+.emoji-the-horns--skin-tone-1 { --img: url('https://static.revolt.chat/mutant/short/expressions/hands/hmn/metal_hmn_h5.svg'); }
 .ReactionIcon-image[src="https://img.guildedcdn.com/asset/Emojis/the_horns--skin-tone-3.webp"] { --img: url('https://static.revolt.chat/mutant/short/expressions/hands/hmn/metal_hmn_h4.svg'); --x: 0; --y: 0; }
+.emoji-the-horns--skin-tone-3 { --img: url('https://static.revolt.chat/mutant/short/expressions/hands/hmn/metal_hmn_h4.svg'); }
 .ReactionIcon-image[src="https://img.guildedcdn.com/asset/Emojis/the_horns--skin-tone-4.webp"] { --img: url('https://static.revolt.chat/mutant/short/expressions/hands/hmn/metal_hmn_h3.svg'); --x: 0; --y: 0; }
+.emoji-the-horns--skin-tone-4 { --img: url('https://static.revolt.chat/mutant/short/expressions/hands/hmn/metal_hmn_h3.svg'); }
 .ReactionIcon-image[src="https://img.guildedcdn.com/asset/Emojis/the_horns--skin-tone-5.webp"] { --img: url('https://static.revolt.chat/mutant/short/expressions/hands/hmn/metal_hmn_h2.svg'); --x: 0; --y: 0; }
+.emoji-the-horns--skin-tone-5 { --img: url('https://static.revolt.chat/mutant/short/expressions/hands/hmn/metal_hmn_h2.svg'); }
 .ReactionIcon-image[src="https://img.guildedcdn.com/asset/Emojis/call_me_hand.webp"] { --img: url('https://static.revolt.chat/mutant/short/expressions/hands/hmn/call_me_hmn_y2.svg'); --x: 0; --y: 0; }
 .ReactionIcon-image[src="https://img.guildedcdn.com/asset/Emojis/call_me_hand--skin-tone-6.webp"] { --img: url('https://static.revolt.chat/mutant/short/expressions/hands/hmn/call_me_hmn_h1.svg'); --x: 0; --y: 0; }
 .ReactionIcon-image[src="https://img.guildedcdn.com/asset/Emojis/call_me_hand--skin-tone-1.webp"] { --img: url('https://static.revolt.chat/mutant/short/expressions/hands/hmn/call_me_hmn_h5.svg'); --x: 0; --y: 0; }

@@ -259,11 +259,17 @@
 .ReactionIcon-image[src="https://img.guildedcdn.com/asset/Emojis/i_love_you_hand_sign--skin-tone-4.webp"] { --img: url('https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f91f-1f3fd.png'); --x: 40; --y: 9; }
 .ReactionIcon-image[src="https://img.guildedcdn.com/asset/Emojis/i_love_you_hand_sign--skin-tone-5.webp"] { --img: url('https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f91f-1f3fe.png'); --x: 40; --y: 10; }
 .ReactionIcon-image[src="https://img.guildedcdn.com/asset/Emojis/the_horns.webp"] { --img: url('https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f918.png'); --x: 39; --y: 5; }
+.emoji-the-horns { --img: url('https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f918.png'); }
 .ReactionIcon-image[src="https://img.guildedcdn.com/asset/Emojis/the_horns--skin-tone-6.webp"] { --img: url('https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f918-1f3ff.png'); --x: 39; --y: 10; }
+.emoji-the-horns--skin-tone-6 { --img: url('https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f918-1f3ff.png'); }
 .ReactionIcon-image[src="https://img.guildedcdn.com/asset/Emojis/the_horns--skin-tone-1.webp"] { --img: url('https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f918-1f3fb.png'); --x: 39; --y: 6; }
+.emoji-the-horns--skin-tone-1 { --img: url('https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f918-1f3fb.png'); }
 .ReactionIcon-image[src="https://img.guildedcdn.com/asset/Emojis/the_horns--skin-tone-3.webp"] { --img: url('https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f918-1f3fc.png'); --x: 39; --y: 7; }
+.emoji-the-horns--skin-tone-3 { --img: url('https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f918-1f3fc.png'); }
 .ReactionIcon-image[src="https://img.guildedcdn.com/asset/Emojis/the_horns--skin-tone-4.webp"] { --img: url('https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f918-1f3fd.png'); --x: 39; --y: 8; }
+.emoji-the-horns--skin-tone-4 { --img: url('https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f918-1f3fd.png'); }
 .ReactionIcon-image[src="https://img.guildedcdn.com/asset/Emojis/the_horns--skin-tone-5.webp"] { --img: url('https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f918-1f3fe.png'); --x: 39; --y: 9; }
+.emoji-the-horns--skin-tone-5 { --img: url('https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f918-1f3fe.png'); }
 .ReactionIcon-image[src="https://img.guildedcdn.com/asset/Emojis/call_me_hand.webp"] { --img: url('https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f919.png'); --x: 39; --y: 11; }
 .ReactionIcon-image[src="https://img.guildedcdn.com/asset/Emojis/call_me_hand--skin-tone-6.webp"] { --img: url('https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f919-1f3ff.png'); --x: 39; --y: 16; }
 .ReactionIcon-image[src="https://img.guildedcdn.com/asset/Emojis/call_me_hand--skin-tone-1.webp"] { --img: url('https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f919-1f3fb.png'); --x: 39; --y: 12; }
